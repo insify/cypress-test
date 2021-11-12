@@ -42,6 +42,8 @@ To determine whenever user should go to high care or checkout depends on below:
 - In step 3, you should:
     - go to the high care page if:
         - you have selected more than 4 activities
-        - if you have selected an activity in sector E-commerce and your sumInsured is more than 2.000.000
-        - if you have selected an activity in sector IT and your sumInsured is more than 500.000
+        - if you have selected an activity in sector **E-commerce** and your sumInsured is more than **2.000.000**
+        - if you have selected an activity in sector **IT** and your sumInsured is more than **500.000**
     - otherwise, go to the checkout
+
+Feel free to modify the base code if needed.

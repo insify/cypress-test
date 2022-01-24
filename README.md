@@ -1,6 +1,6 @@
-# cypress-test
+# e2e-assignment
 
-This repository contains Cypress Testing Engineer assignment.
+This repository contains e2e Testing Engineer assignment.
 
 ## Getting started
 
@@ -47,3 +47,5 @@ To determine whenever user should go to high care or checkout depends on below:
     - otherwise, go to the checkout
 
 Feel free to modify the base code if needed.
+
+- Test file for the assignment is [here](/cypress/e2e/flow.js).

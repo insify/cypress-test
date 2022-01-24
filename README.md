@@ -1,15 +1,43 @@
 # e2e-assignment
 
-This repository contains e2e Testing Engineer assignment.
+This repository contains e2e Test Engineer assignment.
 
 ## Getting started
 
 After cloning this repo run `npm install`.
 
-To start server run `npm start`.
+To start server run: 
 
-To open cypress run `npm run cypress:open`.
+`npm start`
 
+### Cypress
+
+To open cypress run:
+
+`npm run cypress:open`
+
+To run cypress run:
+
+`npm run cypress:run`
+
+### Protractor
+
+To install Protractor run:
+
+ `npm install -g protractor`
+
+Make sure you have the [Java Development Kit (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html) installed to run the standalone Selenium Server.
+You can check this by running: 
+
+`java --version`
+
+To install server run:
+
+`webdriver-manager update`
+
+To run protractor run:
+
+ `npm run protractor`
 ## Specs
 
 In this assignment we would like you to test the flow of the application.
@@ -48,4 +76,6 @@ To determine whenever user should go to high care or checkout depends on below:
 
 Feel free to modify the base code if needed.
 
-- Test file for the assignment is [here](/cypress/e2e/flow.js).
+Test files for the assignment:
+- using [cypress](/cypress/e2e/flow.js).
+- using [protractor](/protractor/e2e/flow.js).

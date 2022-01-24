@@ -1,9 +1,11 @@
 {
-  "name": "cypress-react-test",
+  "name": "e2e-react-assignment",
   "version": "1.0.0",
   "main": "src/index.js",
   "dependencies": {
     "cypress": "9.0.0",
+    "protractor": "^7.0.0",
+    "protractor-react-selector": "^2.2.4",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-hook-form": "6.0.5",
@@ -22,7 +24,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run",
+    "protractor": "protractor protractor.conf.js"
   },
   "browserslist": [
     ">0.2%",

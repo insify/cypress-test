@@ -9,11 +9,10 @@ export default function HighCare(_: RouteComponentProps): JSX.Element {
 
   return (
     <>
-      <h1>Something went wrong! :(</h1>
-      <h2>We will need more information of your company.</h2>
+      <h1>This is HighCare page!</h1>
       <div className="wrapper">
         <iframe
-          title="highCare kitty"
+          title="HighCare kitty"
           src="https://giphy.com/embed/VbnUQpnihPSIgIXuZv"
           width="384"
           height="480"

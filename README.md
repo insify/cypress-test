@@ -49,3 +49,5 @@ To determine whenever user should go to high care or checkout depends on below:
 Feel free to modify the base code if needed.
 
 - Test file for the assignment is [here](/cypress/e2e/flow.js).
+
+You are allowed to use documentation and search for solutions in the internet.

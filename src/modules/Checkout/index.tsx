@@ -9,8 +9,7 @@ export default function Checkout(_: RouteComponentProps): JSX.Element {
 
   return (
     <>
-      <h1>Hurray! The data is correct!</h1>
-      <h2>Now you can submit your application!</h2>
+      <h1>Hurray! This is Checkout page!</h1>
       <div className="wrapper">
         <iframe
           title="Checkout kitty"

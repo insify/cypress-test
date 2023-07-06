@@ -35,7 +35,7 @@ To determine whenever user should go to high care or checkout depends on below:
 ### Inventory step
 
 - On the inventory step you’ll fill in how much your stuff is worth. If it exceeds 10.000.000 euros, show the error message: “Whoah, calm down Scrooge McDuck”
-- if it’s less than 1000, show the error: “You need to have more stuff to run your business, stupid”
+- if it’s less than 1000, show the error: “You need to have more stuff to run your business”
 - Otherwise, you can continue to step 3
 
  ### Last step: High care or Checkout

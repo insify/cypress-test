@@ -6,8 +6,6 @@ This repository contains e2e Testing Engineer assignment.
 
 After cloning this repo run `npm install`.
 
-To start server run `npm start`.
-
 To open cypress run `npm run cypress:open`.
 
 ## Specs

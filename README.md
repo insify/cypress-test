@@ -28,12 +28,13 @@ To determine whenever user should go to high care or checkout depends on below:
         - UX design
         - IT consultancy
 
-- if no activity is selected and you want to continue, show error message: “No activity can lead to health problems“
+- if no activity is selected, show error message: “No activity can lead to health problems“
 
 ### Inventory step
 
 - On the inventory step you’ll fill in how much your stuff is worth. If it exceeds 10.000.000 euros, show the error message: “Whoah, calm down Scrooge McDuck”
 - if it’s less than 1000, show the error: “You need to have more stuff to run your business”
+- Negative numbers are not allowed.
 - Otherwise, you can continue to step 3
 
  ### Last step: High care or Checkout
